@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignTop="@+id/img_poster"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/img_poster"
+        android:text="TITLE"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_poster"
+        android:text="GENRE"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_genre"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_poster"
+        android:text="DURATION"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_nSessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_duration"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_poster"
+        android:text="SESSIONS"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_nSessions"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_poster"
+        android:text="RATING"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/img_poster"
+        android:layout_width="138dp"
+        android:layout_height="184dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+</RelativeLayout>

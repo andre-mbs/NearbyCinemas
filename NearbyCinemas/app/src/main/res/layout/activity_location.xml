@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_marginBottom="-1dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/radio_group">
+
+            <RadioButton
+                android:id="@+id/radio_aveiro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Aveiro" />
+
+            <RadioButton
+                android:id="@+id/radio_beja"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Beja" />
+
+            <RadioButton
+                android:id="@+id/radio_braga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Braga" />
+
+            <RadioButton
+                android:id="@+id/radio_braganca"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bragança" />
+
+            <RadioButton
+                android:id="@+id/radio_castelo_branco"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Castelo Branco" />
+
+            <RadioButton
+                android:id="@+id/radio_coimbra"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Coimbra" />
+
+            <RadioButton
+                android:id="@+id/radio_evora"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Évora" />
+
+            <RadioButton
+                android:id="@+id/radio_faro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Faro" />
+
+            <RadioButton
+                android:id="@+id/radio_guarda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Guarda" />
+
+            <RadioButton
+                android:id="@+id/radio_leiria"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Leiria" />
+
+            <RadioButton
+                android:id="@+id/radio_lisboa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lisboa" />
+
+            <RadioButton
+                android:id="@+id/radio_portalegre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Portalegre" />
+
+            <RadioButton
+                android:id="@+id/radio_porto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Porto" />
+
+            <RadioButton
+                android:id="@+id/radio_santarem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Santarém" />
+
+            <RadioButton
+                android:id="@+id/radio_setubal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Setúbal" />
+
+            <RadioButton
+                android:id="@+id/radio_viana_castelo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viana do Castelo" />
+
+            <RadioButton
+                android:id="@+id/radio_vila_real"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vila Real" />
+
+            <RadioButton
+                android:id="@+id/radio_viseu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viseu" />
+        </RadioGroup>
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:padding="0dp"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ihc3.MoviesListFragment">
+
+    <LinearLayout
+        android:id="@+id/linear_theater"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_title3"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="184dp"
+            android:text="Theater1"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_title5"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="235dp"
+            android:text="Aveiro"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_title6"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="47dp"
+            android:text="0 movies available"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            android:background="#c0c0c0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add_black_24dp"
+        app:backgroundTint="@color/colorPrimary" />
+
+</RelativeLayout>
